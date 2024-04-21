@@ -6,6 +6,7 @@
     <meta name="description" content="" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.ico" type="image/apple-touch-icon">
   </head>
   <body>
     <h1><b>This is our first heading</b></h1>
@@ -17,15 +18,16 @@
     <p id="html">This is an HTML tutorial</p>
     <p id="python">This is a Python tutorial</p>
     <h4 title="hello, motto">Title attribute</h4>
-    <img height="50" src="download.png" alt="Train image"  width="150"/>
+    <img height="50" src="download.png" alt="Train image"  width="150"/> <br>
     <script src="script.js"></script>
+    <a href="https://google.com" target="_blank">google</a>
     <table>
       <tr>
         <th>Name</th>
         <th>Age</th>
       </tr>
       <tr>
-        <td>Harry</td>
+        <td>Harry</td> 
         <td>100</td>
       </tr>
     </table>
@@ -38,7 +40,156 @@
         <td>Column 1</td>
         <td>Column 2</td>
       </tr>
+      <th scope="col">Name</th>
+      <th scope="col">Age</th>
+
     </table>
-        
+
+    <table border="1">
+      <!-- Caption -->
+      <caption>Employee Information</caption>
+  
+      <!-- Table Header -->
+      <thead>
+          <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Position</th>
+              <th>Salary</th>
+          </tr>
+      </thead>
+  
+      <!-- Table Body -->
+      <tbody>
+          <tr>
+              <td>1</td>
+              <td>Alice</td>
+              <td>Developer</td>
+              <td>$80,000</td>
+          </tr>
+          <tr>
+              <td>2</td>
+              <td>Bob</td>
+              <td>Designer</td>
+              <td>$70,000</td>
+          </tr>
+          <tr>
+              <td>3</td>
+              <td>Carol</td>
+              <td>Manager</td>
+              <td>$90,000</td>
+          </tr>
+      </tbody>
+  
+      <!-- Table Footer -->
+      <tfoot>
+          <tr>
+              <td colspan="3">Total Employees</td>
+              <td>3</td>
+          </tr>
+      </tfoot>
+  </table>
+  
+
+    <ul>
+      <li>Pen</li>
+      <li>Pencil</li>
+      <li>Eraser</li>
+    </ul>
+
+    <ul type="square">
+      <li>Notebook</li>
+      <li>Marker</li>
+    </ul>
+
+    <ol>
+      <li>Mango</li>
+      <li>Orange</li>
+      <li>Litchi</li>
+    </ol>
+
+    <ol type="A" start="3">
+      <li>Pen</li>
+      <li>Pencil</li>
+    </ol>
+
+
+<table border="1">
+  <tr>
+    <td colspan="2">Merged Columns</td>
+  </tr>
+  <tr>
+    <td>Column 1</td>
+    <td>Column 2</td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1">
+  <tr>
+    <td>Row 1, Column 1</td>
+    <td rowspan="2">Merged Rows</td>
+  </tr>
+  <br>
+  <tr>
+    <td>Row 2, Column 1</td>
+  </tr>
+</table>
+
+<br><br>
+
+<form action="/submit" method="post">
+  <!-- Text input for username -->
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required>
+  <br><br>
+
+  <!-- Password input -->
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required>
+  <br><br>
+
+  <!-- Radio buttons for gender -->
+  <label>Gender:</label>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <br><br>
+
+  <!-- Submit button -->
+  <input type="submit" value="Submit">
+</form>
+<br>
+<input type="text" name="username" placeholder="Enter your username">
+<input type="password" name="password" placeholder="Enter your password">
+<br>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label>
+<br>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label>
+<br>
+<input type="checkbox" id="subscribe" name="subscribe" value="yes">
+<label for="subscribe">Subscribe to newsletter</label>
+<br>
+
+<textarea name="comment" rows="4" cols="50">
+  Enter your comment here...
+</textarea>
+<br>
+<br>
+<select name="fruits">
+  <option value="apple">Apple</option>
+  <option value="banana">Banana</option>
+  <option value="cherry">Cherry</option>
+</select>
+<br><br>
+<iframe src="https://maps.google.com/maps?q=LOCATION&output=embed" frameborder="0"></iframe>
+<br>
+<code>Your code here</code>
+<br>
+<canvas id="myCanvas" width="200" height="100"></canvas>
   </body>
-</html>
+</html>>
